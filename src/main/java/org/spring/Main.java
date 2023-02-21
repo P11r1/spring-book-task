@@ -22,8 +22,14 @@ public class Main {
         System.out.println("Second Book");
         myBean.setName(new BookDetailsSec());
         System.out.println(myBean.bookName());
+
+        myBean.setType(new BookDetailsSec());
         System.out.println(myBean.bookType());
+
+        myBean.setAuthor(new BookDetailsSec());
         System.out.println(myBean.bookAuthor());
+
+        myBean.setPrice(new BookDetailsSec());
         System.out.println(myBean.bookPrice());
 
     }

@@ -25,11 +25,11 @@ public class MyBean {
     }
 
     public String bookName() {
-        return "Book title is: " + name.getTitle();
+        return "Book title: " + name.getTitle();
     }
 
     public String bookType() {
-        return "Book type is: " + type.getType();
+        return "Book type: " + type.getType();
     }
 
     public String bookAuthor() {
